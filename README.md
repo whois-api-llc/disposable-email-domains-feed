@@ -39,8 +39,8 @@ The upstream classifier combines:
   against known disposable clusters, including ~45,000 entries absent
   from any public block-list.
 - **XGBoost classifier** — final per-domain disposable/free decision
-  with confidence scores. Validated at 98%+ precision and ~92% recall
-  on a temporal holdout at the served classification threshold (0.78).
+  with confidence scores. Validated at 99.27% precision / 97.25% recall
+  on a held-out test set.
 
 This repo only publishes the final three text files. The full enriched
 JSON output (with confidence scores and infrastructure metadata) is
